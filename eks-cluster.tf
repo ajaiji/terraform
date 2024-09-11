@@ -1,4 +1,4 @@
-managed_node_groups = {
+node_groups = {
 one = {
     name = "node-group-1"
 
