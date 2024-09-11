@@ -15,7 +15,7 @@ resource "random_string" "suffix" {
 }
 
 module "vpc" {
-  source  = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc?ref=5.13.0"
+  source  = "git::https://github.com/terraform-aws-modules/terraform-aws-vpc?ref=v5.13.0"
   
 
   name                 = "abhi-eks-vpc"
