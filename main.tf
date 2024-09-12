@@ -3,8 +3,6 @@ terraform {
     bucket         = "s30602202457"
     key            = "global/s3/terraform.tfstate"
     region         = "us-east-1"
-    access_key     = "AKIA2SOGG6LC3HXCQZP3"
-    secret_key     = "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"
   }
 }
 
